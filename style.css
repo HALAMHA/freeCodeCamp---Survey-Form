@@ -38,7 +38,7 @@ form {
   width: 100%;
   box-sizing: border-box;
   margin-top: 5px;
-  height: 25px;
+  height: 30px;
 }
 
 #comment {
@@ -50,11 +50,18 @@ form {
 }
 
 #submit {
-  background-color: #80002a;
+  background-color: #8f384d;
   color: whitesmoke;
   font-weight: bold;
-  border-radius: 3px;
-  height: 30px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  height: 38px;
+  border-style: none;
+}
+
+#submit:hover {
+  background-color: #6e2b3b;
+  cursor: pointer;
 }
 
 #name:focus,
@@ -62,6 +69,11 @@ form {
 #number:focus,
 #dropdown:focus,
 #comment:focus {
-  outline: solid lightgreen;
+  outline: solid 3px #a54058;
   border: none;
+}
+
+#checkbox,
+#radio {
+  line-height: 28px;
 }
